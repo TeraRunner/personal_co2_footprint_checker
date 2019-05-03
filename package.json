@@ -1,7 +1,7 @@
 {
   "name": "personal_co2_footprint_checker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Project made by:",
   "main": "webpack.config.js",
   "scripts": {
     "test": "mocha client/src/models/specs",
@@ -23,5 +23,13 @@
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeraRunner/personal_co2_footprint_checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TeraRunner/personal_co2_footprint_checker/issues"
+  },
+  "homepage": "https://github.com/TeraRunner/personal_co2_footprint_checker#readme"
 }
