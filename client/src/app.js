@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const formView = new FormView(form);
   formView.bindEvents();
 
-  const url = "http://localhost:3000/api/userfootprint"
+  const url = "https://co2footprint.herokuapp.com/api/userfootprint"
   const fpCalculator = new FpCalculator(url);
   fpCalculator.bindEvents();
   fpCalculator.getData();
